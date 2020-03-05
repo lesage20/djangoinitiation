@@ -1,6 +1,6 @@
 
 # django initiation
-`python3`
+`python3` <br>
 pour commencer il faut créer un environnement virtuel avec: <br>
 `python3 -m venv venv`
 
