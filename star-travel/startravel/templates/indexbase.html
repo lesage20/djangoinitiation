@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>{% block title %}
+
+        {% endblock title %}
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="/static/images/favicon.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i"
+        rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" id="cpswitch" href="/static/css/orange.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+
+    <!-- Owl Carousel Stylesheet -->
+    <link rel="stylesheet" href="/static/css/owl.carousel.css">
+    <link rel="stylesheet" href="/static/css/owl.theme.css">
+
+    <!-- Flex Slider Stylesheet -->
+    <link rel="stylesheet" href="/static/css/flexslider.css" type="text/css" />
+
+    <!--Date-Picker Stylesheet-->
+    <link rel="stylesheet" href="/static/css/datepicker.css">
+</head>
+
+
+
+
+<!--====== LOADER =====-->
+<div class="loader"></div>
+
+
+<!--======== SEARCH-OVERLAY =========-->
+<div class="overlay">
+    <a href="javascript:void(0)" id="close-button" class="closebtn">&times;</a>
+    <div class="overlay-content">
+        <div class="form-center">
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search..." required />
+                        <span class="input-group-btn"><button type="submit" class="btn"><span><i
+                                        class="fa fa-search"></i></span></button></span>
+                    </div><!-- end input-group -->
+                </div><!-- end form-group -->
+            </form>
+        </div><!-- end form-center -->
+    </div><!-- end overlay-content -->
+</div><!-- end overlay -->
+
+
+<!--============= TOP-BAR ===========-->
+<div id="top-bar" class="tb-text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="info">
+                    <ul class="list-unstyled list-inline">
+                        <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
+                        <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                    </ul>
+                </div><!-- end info -->
+            </div><!-- end columns -->
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="links">
+                    <ul class="list-unstyled list-inline">
+                        <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-pinterest"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                        <li>
+                            <form>
+                                <ul class="list-inline">
+                                    <li>
+                                        <div class="form-group currency">
+                                            <span><i class="fa fa-angle-down"></i></span>
+                                            <select class="form-control">
+                                                <option value="">$</option>
+                                                <option value="">£</option>
+                                            </select>
+                                        </div><!-- end form-group -->
+                                    </li>
+
+                                    <li>
+                                        <div class="form-group language">
+                                            <span><i class="fa fa-angle-down"></i></span>
+                                            <select class="form-control">
+                                                <option value="">EN</option>
+                                                <option value="">UR</option>
+                                                <option value="">FR</option>
+                                                <option value="">IT</option>
+                                            </select>
+                                        </div><!-- end form-group -->
+                                    </li>
+                                </ul>
+                            </form>
+                        </li>
+                    </ul>
+                </div><!-- end links -->
+            </div><!-- end columns -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end top-bar -->
+<!--========================= FLEX SLIDER =====================-->
+<section class="flexslider-container" id="flexslider-container-6">
+
+    <div class="header-absolute">
+        <nav class="navbar navbar-default main-navbar navbar-custom navbar-transparent landing-page-navbar"
+            id="mynavbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" id="menu-button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="header-search hidden-lg">
+                        <a href="javascript:void(0)" class="search-button"><span><i class="fa fa-search"></i></span></a>
+                    </div>
+                    <a href="#" class="navbar-brand"><span><i class="fa fa-plane"></i>STAR</span>TRAVELS</a>
+                </div><!-- end navbar-header -->
+
+                <div class="collapse navbar-collapse" id="myNavbar1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tour-homepage">Home</a></li>
+                        <li><a href="#tour-offers">Tours</a></li>
+                        <li><a href="#hot-tour">Offers</a></li>
+                        <li><a href="#tour-packages">Packages</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact-form">Contact Us</a></li>
+                        <li><a href="javascript:void(0)" class="search-button"><span><i
+                                        class="fa fa-search"></i></span></a></li>
+                    </ul>
+                </div><!-- end navbar collapse -->
+            </div><!-- end container -->
+        </nav><!-- end navbar -->
+    </div><!-- end header-absolute -->
+
+    <div class="sidenav-content">
+        <div id="mySidenav" class="sidenav">
+            <h2 id="web-name"><span><i class="fa fa-plane"></i></span>Star Travel</h2>
+
+            <div id="main-menu">
+                <div class="closebtn">
+                    <button class="btn btn-default" id="closebtn">&times;</button>
+                </div><!-- end close-btn -->
+
+                <div class="list-group landing-page-navbar">
+
+                    <a href="#tour-homepage" class="list-group-item"><span><i
+                                class="fa fa-home link-icon"></i></span>Home</a>
+                    <a href="#tour-offers" class="list-group-item"><span><i
+                                class="fa fa-plane link-icon"></i></span>Tours</a>
+                    <a href="#hot-tour" class="list-group-item"><span><i
+                                class="fa fa-building link-icon"></i></span>Offers</a>
+                    <a href="#tour-packages" class="list-group-item"><span><i
+                                class="fa fa-globe link-icon"></i></span>Packages</a>
+                    <a href="#testimonials" class="list-group-item"><span><i
+                                class="fa fa-ship link-icon"></i></span>Testimonials</a>
+                    <a href="#contact-form" class="list-group-item"><span><i
+                                class="fa fa-car link-icon"></i></span>Contact Us</a>
+                </div><!-- end list-group -->
+            </div><!-- end main-menu -->
+        </div><!-- end mySidenav -->
+    </div><!-- end sidenav-content -->
+    {% block content %}
+
+        {% endblock content %}
+
+<!--======================= FOOTER =======================-->
+<section id="footer" class="ftr-heading-o ftr-heading-mgn-1">
+
+    <div id="footer-top" class="banner-padding ftr-top-grey ftr-text-white">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-contact">
+                    <h3 class="footer-heading">CONTACT US</h3>
+                    <ul class="list-unstyled">
+                        <li><span><i class="fa fa-map-marker"></i></span>29 Land St, Lorem City, CA</li>
+                        <li><span><i class="fa fa-phone"></i></span>+00 123 4567</li>
+                        <li><span><i class="fa fa-envelope"></i></span>info@starhotel.com</li>
+                    </ul>
+                </div><!-- end columns -->
+
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-2 footer-widget ftr-links">
+                    <h3 class="footer-heading">COMPANY</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Flight</a></li>
+                        <li><a href="#">Hotel</a></li>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Cruise</a></li>
+                        <li><a href="#">Cars</a></li>
+                    </ul>
+                </div><!-- end columns -->
+
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-links ftr-pad-left">
+                    <h3 class="footer-heading">RESOURCES</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Site Map</a></li>
+                    </ul>
+                </div><!-- end columns -->
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 footer-widget ftr-about">
+                    <h3 class="footer-heading">ABOUT US</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                        nostrud exerci tation ullamcorper suscipit.</p>
+                    <ul class="social-links list-inline list-unstyled">
+                        <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-twitter"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-google-plus"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-pinterest-p"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-instagram"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-linkedin"></i></span></a></li>
+                        <li><a href="#"><span><i class="fa fa-youtube-play"></i></span></a></li>
+                    </ul>
+                </div><!-- end columns -->
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end footer-top -->
+
+    <div id="footer-bottom" class="ftr-bot-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="copyright">
+                    <p>© 2017 <a href="#">StarTravel</a>. All rights reserved.</p>
+                </div><!-- end columns -->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="terms">
+                    <ul class="list-unstyled list-inline">
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div><!-- end columns -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end footer-bottom -->
+
+</section><!-- end footer -->
+
+
+<!-- Page Scripts Starts -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/jquery.magnific-popup.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/jquery.flexslider.js"></script>
+<script src="/static/js/bootstrap-datepicker.js"></script>
+<script src="/static/js/owl.carousel.min.js"></script>
+<script src="/static/js/custom-navigation.js"></script>
+<script src="/static/js/custom-flex.js"></script>
+<script src="/static/js/custom-owl.js"></script>
+<script src="/static/js/custom-date-picker.js"></script>
+<script src="/static/js/custom-video.js"></script>
+<!-- Page Scripts Ends -->
+
+</body>
+
+</html>
