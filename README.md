@@ -23,7 +23,7 @@ on crée un nouvel utilisateur avec la commande: <br>
 `python manage.py createsuperuser`
 
 
-in settings.py of project
+# in settings.py of project
 
   STATIC_URL = '/static/'
   MEDIA_URL = '/media/'
@@ -33,7 +33,7 @@ in settings.py of project
   STATIC_ROOT= os.path.join(BASE_DIR, '../static_cdn')
   MEDIA_ROOT= os.path.join(BASE_DIR, '../media_cdn')
 
-in urls.py of project
+# in urls.py of project
 
   from django.conf import settings
   from django.conf.urls.static import static
